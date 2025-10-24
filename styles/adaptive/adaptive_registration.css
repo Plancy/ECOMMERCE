@@ -1,0 +1,229 @@
+@media (max-width: 1024px) {
+    .modal-content {
+        width: 85%;
+        margin: 5vh auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal-content {
+        width: min(400px, 92vw);
+        margin: 4vh auto;
+    }
+
+    .registration-form {
+        padding: 2.5rem 2rem 1.5rem;
+    }
+
+    .registration-form h2 {
+        font-size: 1.5rem;
+    }
+
+    .close {
+        top: 1rem;
+        right: 1rem;
+        font-size: 1.2rem;
+        width: 28px;
+        height: 28px;
+    }
+
+    .profile-modal-content {
+        width: min(500px, 92vw);
+    }
+
+    .profile-form {
+        padding: 2.5rem 2rem 1.5rem;
+    }
+
+    .favorites-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 0.75rem;
+    }
+
+    .favorite-item-image {
+        height: 100px;
+    }
+}
+
+@media (max-width: 640px) {
+    .modal-content {
+        width: 95%;
+        margin: 3vh auto;
+    }
+
+    .registration-form {
+        padding: 35px 25px 25px;
+    }
+
+    .registration-form h2 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 6px;
+    }
+
+    .registration-form p {
+        font-size: 13px;
+        margin-bottom: 28px;
+    }
+
+    .form-group {
+        margin-bottom: 18px;
+    }
+
+    .form-group input {
+        padding: 10px 14px;
+        font-size: 15px;
+    }
+
+    .registration-btn {
+        padding: 14px 20px;
+        font-size: 15px;
+        height: 50px;
+    }
+
+    .registration-message {
+        right: 1rem;
+        left: 1rem;
+        max-width: none;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        width: min(360px, 95vw);
+        margin: 2vh auto;
+        border-radius: 8px;
+    }
+
+    .registration-form {
+        padding: 2rem 1.5rem 1.25rem;
+    }
+
+    .registration-form h2 {
+        font-size: 1.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .registration-form p {
+        font-size: 0.8125rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-group label {
+        font-size: 0.8125rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .form-group input {
+        padding: 0.625rem 0.875rem;
+        font-size: 0.9375rem;
+        border-radius: 6px;
+    }
+
+    .registration-btn {
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9375rem;
+        min-height: 44px;
+        border-radius: 6px;
+    }
+
+    .switch-form {
+        margin-top: 1.25rem;
+        font-size: 0.8125rem;
+    }
+
+    .close {
+        top: 0.75rem;
+        right: 0.75rem;
+        width: 24px;
+        height: 24px;
+        font-size: 1rem;
+    }
+
+    .profile-modal-content {
+        width: min(400px, 95vw);
+    }
+
+    .profile-form {
+        padding: 2rem 1.5rem 1.25rem;
+    }
+
+    .profile-tabs {
+        gap: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .profile-tab {
+        padding: 0.75rem 1rem;
+        font-size: 0.8125rem;
+    }
+
+    .favorites-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .favorites-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    .favorite-item-image {
+        height: 80px;
+    }
+
+    .favorite-item-info {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .modal-content {
+        width: 98vw;
+        margin: 1vh auto;
+    }
+
+    .registration-form {
+        padding: 1.75rem 1.25rem 1rem;
+    }
+
+    .registration-form h2 {
+        font-size: 1.125rem;
+    }
+
+    .form-group input {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.875rem;
+    }
+
+    .registration-btn {
+        padding: 0.625rem 1rem;
+        font-size: 0.875rem;
+        min-height: 40px;
+    }
+
+    .profile-modal-content {
+        width: 98vw;
+    }
+
+    .favorites-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.96);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}

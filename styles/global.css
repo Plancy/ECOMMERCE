@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 24px/32px 'Inter', sans-serif;
+    letter-spacing: -1px;
+    color: #333;
+    background: #ffffff;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    font-family: inherit;
+}
+
+a {
+    color: inherit;
+}

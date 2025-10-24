@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('global.css');
+@import url('header.css');
+@import url('hero_section.css');
+@import url('./moduls/registrarion.css');
+@import url('./moduls/profile.css');
+
+/******************************Адаптиви******************************/
+@import url('/styles/adaptive/adaptive_registration.css');
