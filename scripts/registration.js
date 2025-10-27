@@ -13,25 +13,25 @@ class RegistrationModal {
                 <div class="modal-content">
                     <span class="close">&times;</span>
                     <div id="loginForm" class="registration-form">
-                        <h2>Вхід в акаунт</h2>
+                        <h2>Account login</h2>
                         <form id="loginFormElement">
                             <div class="form-group">
                                 <label for="loginEmail">Email:</label>
                                 <input type="email" id="loginEmail" required>
                             </div>
                             <div class="form-group">
-                                <label for="loginPassword">Пароль:</label>
+                                <label for="loginPassword">Password:</label>
                                 <input type="password" id="loginPassword" required>
                             </div>
-                            <button type="submit" class="registration-btn">Увійти</button>
+                            <button type="submit" class="registration-btn">Log in</button>
                         </form>
-                        <p class="switch-form">Немає акаунта? <span id="showRegister">Зареєструватися</span></p>
+                        <p class="switch-form">Don't have an account? <span id="showRegister">Register</span></p>
                     </div>
                     <div id="registerForm" class="registration-form" style="display: none;">
-                        <h2>Реєстрація</h2>
+                        <h2>Registration</h2>
                         <form id="registerFormElement">
                             <div class="form-group">
-                                <label for="registerLogin">Логін:</label>
+                                <label for="registerLogin">Login:</label>
                                 <input type="text" id="registerLogin" required>
                             </div>
                             <div class="form-group">
@@ -39,16 +39,16 @@ class RegistrationModal {
                                 <input type="email" id="registerEmail" required>
                             </div>
                             <div class="form-group">
-                                <label for="registerPassword">Пароль:</label>
+                                <label for="registerPassword">Password:</label>
                                 <input type="password" id="registerPassword" required>
                             </div>
                             <div class="form-group">
-                                <label for="confirmPassword">Повторити пароль:</label>
+                                <label for="confirmPassword">Repeat password:</label>
                                 <input type="password" id="confirmPassword" required>
                             </div>
-                            <button type="submit" class="registration-btn">Зареєструватися</button>
+                            <button type="submit" class="registration-btn">Register</button>
                         </form>
-                        <p class="switch-form">Вже є акаунт? <span id="showLogin">Увійти</span></p>
+                        <p class="switch-form">Already have an account? <span id="showLogin">Log in</span></p>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@ class RegistrationModal {
         this.userIcon.addEventListener('click', () => this.handleUserIconClick());
 
         this.closeBtn.addEventListener('click', () => this.closeModal());
-        
+
         window.addEventListener('click', (e) => {
             if (e.target === this.modal) this.closeModal();
         });
@@ -106,7 +106,7 @@ class RegistrationModal {
 
     handleLogout() {
         localStorage.removeItem('currentUser');
-        this.profileModal.updateGreeting('Доброго дня');
+        this.profileModal.updateGreeting('Good afternoon!');
         this.closeModal();
     }
 
