@@ -307,13 +307,13 @@ class FavoritesManager {
       this.favoritesGrid.innerHTML = `
         <div class="favorites-empty">
           <div class="favorites-empty-icon">💝</div>
-          <h3>Список порожній</h3>
-          <p>Додайте товари в обране, щоб вони з'явилися тут</p>
+          <h3>The list is empty.</h3>
+          <p>Add products to your favorites to see them here</p>
         </div>
       `;
-      this.favoritesCountBadge.textContent = '0 товарів';
+      this.favoritesCountBadge.textContent = '0 Goods';
     } else {
-      this.favoritesCountBadge.textContent = `${this.favorites.length} товарів`;
+      this.favoritesCountBadge.textContent = `${this.favorites.length} Goods`;
       this.favoritesGrid.innerHTML = this.favorites.map(item => `
         <div class="favorite-card">
           <div class="favorite-card-image">
