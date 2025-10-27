@@ -4,6 +4,14 @@
 @import url('hero_section.css');
 @import url('./moduls/registrarion.css');
 @import url('./moduls/profile.css');
+@import url('footer.css');
+@import url('./trending.css');
+@import url('./cart.css');
+@import url('./color_block.css');
 
 /******************************Адаптиви******************************/
-@import url('/styles/adaptive/adaptive_registration.css');
+@import url('./adaptive/adaptive_registration.css');
+@import url('./adaptive/adaptive_footer.css');
+@import url('./adaptive/adaptive_hero_section.css');
+@import url('./adaptive/adaptive_header.css');
+@import url('./adaptive/adaptive_trenging.css');

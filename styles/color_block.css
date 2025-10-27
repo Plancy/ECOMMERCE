@@ -1,0 +1,256 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .explorebyColorsBlock {
+            padding: 40px 0;
+            height: 210px;
+            /* width: 1440px; */
+            width: 100%;
+             max-width: 1320px;
+            display: flex;
+            justify-content: flex-start;
+
+        }
+
+        .content {
+            width: 300px;
+            height: 130px;            
+        }
+        .content>h3{
+            font-family:'Inter', sans-serif ;
+            font-size: 60px;
+            line-height: 65px;
+            font-weight: 400;
+            letter-spacing: -3px;
+        }
+
+        .buttons {
+            width: 850px;
+            height: 130px;
+            margin-left: 80px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .buttons>div {
+            width: auto;
+            height: 10px;
+            border-radius: 100px;
+            padding: 15px;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            font-family:'Inter', sans-serif ;
+            font-size: 16px;
+            cursor: pointer;
+
+        }
+
+        .buttons>div>div {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .buttons>div:nth-child(1)>div {
+            background-color: red;
+        }
+
+        .buttons>div:nth-child(2)>div {
+            background-color: greenyellow;
+        }
+
+        .buttons>div:nth-child(3)>div {
+            background-color: rgb(0, 0, 128);
+        }
+
+        .buttons>div:nth-child(4)>div {
+            background-color: white;
+            border: .5px solid grey;
+        }
+
+        .buttons>div:nth-child(5)>div {
+            background-color: lightblue;
+        }
+
+        .buttons>div:nth-child(6)>div {
+            background-color: purple;
+        }
+
+        .buttons>div:nth-child(7)>div {
+            background-color: pink;
+        }
+
+        .buttons>div:nth-child(8)>div {
+            background-color: yellow;
+        }
+
+        .buttons>div:nth-child(9)>div {
+            background-color: green;
+        }
+        .buttons>div:nth-child(10)>div {
+            background-color: black;
+        }
+        .buttons>div:nth-child(11)>div {
+            background-color: gray;
+        }
+        .buttons>div:nth-child(12)>div {
+            background-color: brown;
+        }
+
+        .testimoni {
+            width: 1440px;
+            height: 620px;
+        }
+
+        .testimoniImg {
+            background-image: url(../img/images/block_bgi.png);
+            width: 1320px;
+            height: 556px;
+            margin: 40px 0;
+            position: relative;
+        }
+
+        .testimoniText {
+            width: 500px;
+            height: 400px;
+            position: absolute;
+            left: 70px;
+            top: 70px;
+
+        }
+
+        .testimoniText>p:nth-child(1) {
+            color: rgba(255, 255, 255, .7);
+            font-family:'Inter', sans-serif ;
+            font-size: 30px;
+            line-height: 38px;
+            letter-spacing: -1px;
+        }
+
+        .testimoniText>h3:nth-child(2) {
+            color: white;
+            font: 400 65px/65px 'Inter', sans-serif;
+            letter-spacing: -4px;
+        }
+        .testimoniText>p:nth-child(3) {
+            color: rgba(255, 255, 255, .7);
+            font-family:'Inter', sans-serif ;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: -0.3px;
+            margin-top: 10px;
+        }      
+
+        .testimoniText>h3:nth-child(4) {
+            font-size: 24px;
+            margin-top: 15px;
+            line-height: 32px;
+            color: white;
+        }
+
+        .testimoniText>p:nth-child(5) {
+            font-size: 14px;
+            line-height: 22px;
+            color: rgba(255, 255, 255, .7);
+        }
+
+        .servis {
+            border-top: 1px solid rgba(0, 0, 0,0.2);
+            width: 1440px;
+            height: 558px;
+            padding: 40px 0;
+        }
+
+        .servis>h3:nth-child(1) {
+
+            width: 550px;
+            line-height: 65px;
+            font-size: 60px;
+            letter-spacing: -3px;
+            font-family:'Inter', sans-serif ;
+        }
+
+        .frame {
+            width: 1320px;
+            height: 292px;
+            margin-top: 56px;
+            display: flex;
+            flex-direction: row;
+            column-gap: 45px;
+        }
+
+        .frame>div {
+            width: 410px;
+            height: 100%;
+        }
+
+        .frame>div>h3 {
+            font-family:'Inter', sans-serif ;
+            margin-top: 15px;
+            font-size: 30px;
+            line-height: 40px;
+            letter-spacing: -1px;
+            
+        }
+
+        .frame>div>p {
+            font-family:'Inter', sans-serif ;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: -0.3px;
+        }
+
+        .blog {
+            width: 1400px;
+            height: 555px;
+            padding: 40px 0;
+            display: flex;
+            flex-direction: column;
+            border-top: 1px solid black;
+        }
+
+        .blog>h3 {
+            font-family:'Inter', sans-serif ;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 38px;
+            margin-bottom: 30px;
+            letter-spacing: -1px;
+        }
+        .blockContent{
+            display: flex;
+            justify-content: space-between;
+        }
+        .blockContent>img:nth-child(1) {
+            width: 654px;
+            height: 367px;
+        }
+        .blockContent>div:nth-child(2) {
+            width: 606px;
+            height: 367px;
+            margin-right: 30px;
+        }
+        .blockContent>div:nth-child(2)>h3{
+            font:'Inter', sans-serif;
+            font-size: 60px;
+            font-weight: 400;
+            line-height: 65px;
+            letter-spacing: -3px;
+            
+        }
+        .blockContent>div:nth-child(2)>p{
+            font:'Inter', sans-serif;
+            font-size: 18px;
+            line-height: 26px;
+            margin-top: 10px;
+            letter-spacing: -0.3px;
+
+        }
